@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background:blanchedalmond ;
+  color: #222;
+}
+
+header {
+  background-color: #111;
+  color: white;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('banner.jpg') center/cover no-repeat;
+  color:burlywood ;
+  text-align: center;
+  padding: 160px 40px;
+}
+
+.hero h1 span {
+  color:brown ;
+}
+
+.gallery, .services, .form-section, .content {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #111;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+}
